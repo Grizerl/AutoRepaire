@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts - Preconnect and Load Fonts -->
+    <!-- Перший блок підключення шрифтів із Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <!-- Дублювання підключення шрифтів із додатковими варіантами -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Ще один блок підключення різних шрифтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Кінець підключення Google Fonts -->
+    
+    <!-- Swiper.js CSS and JS -->
+    <!-- Підключення CSS для Swiper.js із CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.9/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Підключення JavaScript/CSS для Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Кінець підключення Swiper -->
+    
+    <!-- Link to Custom CSS -->
+    <!-- Підключення вашого власного CSS-файлу -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    
+    <!-- Favicon -->
+    <!-- Підключення іконки сайту (favicon) -->
+    <link rel="icon" href="./img/website-logo.png">
+    <!-- Кінець підключення CSS та favicon -->
+    
+    <!-- AOS (Animate on Scroll) Library -->
+    <!-- Підключення бібліотеки AOS для анімацій під час скролінгу -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Кінець підключення AOS -->
+    
+    <!-- FontAwesome Icons -->
+    <!-- Підключення іконок FontAwesome через CDN -->
+    <script src="https://kit.fontawesome.com/46a432ef36.js" crossorigin="anonymous"></script>
+    <!-- Кінець підключення FontAwesome -->
+    <title>Автосервіс - Car Services and Mechanic</title>
+</head>
+<body>
+    <div class="App">
+        <!-- Preloader -->
+        <div class="preload" data-preload>
+           <div class="preloader-content">
+              <p class="text">Loading</p>
+              <img class="circle" src="./img/circle.png" alt="Car brake">
+           </div>
+        </div>
+        <!-- Advertising Line -->
+        <div class="advertising-line">
+           <div class="row">
+              <ul class="top-left">
+                 <li>
+                    <i style="color:#fff;" class="fa-solid fa-house"></i>
+                    <a href="https://google.com.ua/maps/place/%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4018377,30.2208891,11z/data=!3m1!4b1!4m12!1m5!3m4!2zNTDCsDQ1JzMzLjciTiAyNcKwMTYnMzguNyJF!8m2!3d50.759347!4d25.277409!3m5!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4503596!4d30.5245025!16zL20vMDJzbjM0?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D">Car Service Floor UK</a>
+                 </li>
+                 <li>
+                    <i style="color:#fff;" class="fa-solid fa-phone"></i>
+                    <a  href="tel:+380950660959">+38(095)-066-09-59</a>
+                 </li>
+                 <li>
+                    <i style="color:#fff;" class="fa-solid fa-envelope"></i>
+                    <a  href="mailto:autorepaire@gmail.com">autorepaire@gmail.com</a>
+                 </li>
+              </ul>
+              <ul class="top-right">
+                 <li>
+                    <a title="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                 </li>
+                 <li>
+                    <a  title="Twitter" href="#"><i class="fab fa-x-twitter"></i></a>
+                 </li>
+                 <li>
+                    <a title="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+                 </li>
+                 <li>
+                    <a  title="Google Plus" href="#"><i class="fab fa-google-plus-g"></i></a>
+                 </li>
+                 <li>
+                    <a  title="Dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+                 </li>
+              </ul>
+           </div>
+        </div>
+        <!-- Main Container -->
+        <div class="container">
+           <div class="navbar-content">
+              <div class="main-logo">
+                 <h2 class="logo-slogan">Автосервіс</h2>
+              </div>
+              <div class="nav-bar-collapse">
+                 <ul class="nav-content">
+                    <li class="nav-item">
+                       <a class="nav-link" tabindex="1" href="./index.html">Головна</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                       <a class="nav-link" tabindex="2" id="about-link" href="#about">Про нас<i style="margin-left:3px;" class="fa-solid fa-caret-down"></i></a>
+                       <ul class="sub-menu">
+                          <li><a href="./autoAbout/autoNews.html">Новини компанії</a></li>
+                          <li><a href="./autoAbout/aboutCompany/about.html">Детальніше про компанію</a></li>
+                       </ul>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" tabindex="3" id="client-say-link" href="#client-say">Відгуки</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                       <a class="nav-link" tabindex="4" href="#contacts">Контакти<i style="margin-left:3px;" class="fa-solid fa-caret-down"></i></a>
+                       <ul class="sub-menu">
+                          <li>
+                             <a href="./autoContacts/contact.html">Детальніше про розташування</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav-item menu-item">
+                       <a class="nav-link" tabindex="5" href="#">Сторінки<i style="margin-left:3px;" class="fa-solid fa-caret-down"></i></a>
+                       <ul class="sub-menu">
+                          <li>
+                             <a href="./autoPages/saleCar.html">Продаж автомобілів</a>
+                          </li>
+                          <li>
+                             <a href="./autoPages/subscription/monthlyPlan.html">Місячна підписка</a>
+                          </li>
+                          <li>
+                             <a href="./autoPages/partners/partnersCompany.html">Партнери компанії</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav-item">
+                       <span class="nav-link lk-content">
+                           Служба продажів
+                          <div style="padding-top:5px;">
+                             <a href="tel:+380950660959" class="nav-link-number">+380 95 066 09 59</a> 
+                          </div>
+                       </span>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </div>
+     </div>
+     <aside>
+        <div class="aside-container">
+           <div class="aside-content">
+              <div class="swiper-1">
+                 <!-- Swiper for slides -->
+                 <div class="swiper-wrapper">
+                    <!-- First slide -->
+                    <div class="swiper-slide">
+                       <div class="back-img-slide-1">
+                          <div class="slide-1-content">
+                             <h2 class="slide-1-title">Найкращі майстри<br>для обслуговування</h2>
+                             <p class="slide-1-text">Наші фахівці гарантують якісне та професійне обслуговування,<br> 
+                              забезпечуючи індивідуальний підхід до кожного клієнта. 
+                             </p>
+                             <a class="slide-1-btn" href="#contacts">Запишіться на діагностику</a>
+                          </div>
+                       </div>
+                    </div>
+                    <!-- Second slide -->
+                    <div class="swiper-slide">
+                       <div class="back-img-slide-2">
+                          <div class="slide-2-content">
+                             <h2 class="slide-2-title">Найкраща автомайстерня<br>для обслуговування</h2>
+                             <p class="slide-2-text">Наші професіонали забезпечують повний спектр ремонтних 
+                              послуг<br> для вашого авто. Висока якість, надійність та індивідуальний підхід.
+                             </p>
+                             <a class="slide-2-btn" href="./autoAbout/aboutCompany/about.html">Більше інформації +</a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <!-- Navigation buttons -->
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-button-next"></div>
+              </div>
+           </div>
+        </div>
+     </aside>
+     <section id="about">
+        <!-- About section -->
+        <div class="section-about-card-content">
+           <div class="card-list">
+              <!-- Appointment Card -->
+              <div class="card">
+                 <div><i class="fa-solid fa-car-rear"></i></div>
+                 <h2>Призначення</h2>
+                 <p class="card-p">Ми прагнемо надавати послуги<br> найвищої якості.</p>
+                 <div class="card-btn-active">
+                    <div class="card-pseudo-btn"><a href="./autoContacts/contact.html">Забронювати зараз</a></div>
+                 </div>
+              </div>
+              <!-- Service Packages Card -->
+              <div class="card">
+                 <div><i class="fa-solid fa-gear"></i></div>
+                 <h2>Пакети послуг</h2>
+                 <p class="card-p">Ми пропонуємо гнучкі пакети<br>послуг для ваших потреб.</p>
+                 <div class="card-btn-active">
+                    <div class="card-pseudo-btn"><a href="./autoPages/subscription/monthlyPlan.html">Перейти до пропозицій</a></div>
+                 </div>
+              </div>
+              <!-- Find A Repair Card -->
+              <div class="card">
+                 <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                 <h2>Відремонтувати</h2>
+                 <p class="card-p">Майстри швидко і надійно<br>відновлять ваше авто.</p>
+                 <div class="card-btn-active">
+                    <div class="card-pseudo-btn"><a href="#contacts">Зв'язок з нами</a></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <aside data-aos="fade-up">
+           <!-- Aside section with animation -->
+           <div class="aside-container-section-card">
+              <div style="width: 40%;">
+                 <span class="aside-subtitle">Про компанію</span>
+                 <h1 class="aside-title">Ми завжди готові допомогти</h1>
+                 <p class="aside-text">Наша команда завжди на зв'язку, щоб забезпечити вам швидку та професійну допомогу. Ви можете розраховувати на нас у будь-який час для вирішення будь-яких питань з обслуговування вашого авто.</p>
+                 <div>
+                    <a href="./autoAbout/autoNews.html" class="aside-btn animation-btn"><span>Докладніше</span></a>
+                 </div>
+              </div>
+              <div>
+                 <img class="img-aside-one" src="./img/circle-one.jpg" alt="A man who cuts a car">
+                 <img class="img-aside-two" src="./img/circle-two.jpg" alt="tools">
+              </div>
+           </div>
+        </aside>
+     </section>
+     <section id="support">
+        <!-- Support section -->
+        <div class="section-support-container">
+           <div class="section-support-content">
+              <div class="section-support-content-title">
+                 <h2 class="section-support-title">НАША ПІДТРИМКА</h2>
+                 <h3 class="section-support-subtitle">Наші послуги</h3>
+              </div>
+              <div data-aos="fade-up" class="card-support-list">
+                 <div class="card-support">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Ремонт & Заміна</h2>
+                    <p class="card-p cd-p">Ми надаємо комплексні послуги з <br> ремонту та заміни деталей вашого<br> автомобіля</p>
+                 </div>
+                 <div class="card-support">
+                    <i class="fa-regular fa-compass"></i>
+                    <h2>Лазерне різання металу</h2>
+                    <p class="card-p cd-p">Пропонуємо високоточне лазерне<br> різання металу для виготовлення<br> деталей будь-якої складності</p>
+                 </div>
+                 <div class="card-support">
+                    <i class="fa-solid fa-car-rear"></i>
+                    <h2>Заміна олії </h2>
+                    <p class="card-p cd-p">Наша послуга з заміни олії забезпечує вашому автомобілю продуктивність та довговічність</p>
+                 </div>
+              </div>
+              <div data-aos="fade-up" class="card-support-list cd-lt-sup">
+                 <div class="card-support">
+                    <i class="fa-solid fa-hammer"></i>
+                    <h2>Гарантія на обслуговування</h2>
+                    <p class="card-p cd-p">Ми надаємо гарантію що свідчить про впевненість у робіті</p>
+                 </div>
+                 <div class="card-support">
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Безкоштовна діагностика</h2>
+                    <p class="card-p cd-p">Скористайтеся безкоштовною діагностикою вашого авто.</p>
+                 </div>
+                 <div class="card-support">
+                    <i class="fa-solid fa-life-ring"></i>
+                    <h2>Довічна гарантія <br> на роботу</h2>
+                    <p class="card-p cd-p">Наша довічна гарантія свідчить про впевненість у якості виконаних робіт</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <section>
+        <!-- Advantages section -->
+        <div>
+           <div class="section-advantages-conteiner">
+              <div>
+                 <h1 class="section-advantages-title">НАШІ ПЕРЕВАГИ</h1>
+              </div>
+              <div class="section-advantages-card-content">
+                 <div data-aos="fade-right" class="section-advantages-card-list">
+                    <div><i class="fa-solid fa-headset fa-i" aria-hidden="true"></i></div>
+                    <div>
+                       <h3 class="section-advantages-card-title">ЯКІСНА ПІДТРИМКА</h3>
+                       <p class="section-advantages-card-p">Ми надаємо професійну підтримку клієнтів, щоб ви завжди почувалися впевнено у наших послугах.</p>
+                    </div>
+                 </div>
+                 <div data-aos="fade-left" class="section-advantages-card-list sc-cd-lt-tw">
+                    <div><i class="fa-solid fa-gears fa-i" aria-hidden="true"></i></div>
+                    <div>
+                       <h3 class="section-advantages-card-title">РІЗНОМАНІТНІСТЬ ПОСЛУГ</h3>
+                       <p class="section-advantages-card-p">Ми пропонуємо широкий спектр послуг,щоб задовольнити потреби в обслуговуванні автомобіля.</p>
+                    </div>
+                 </div>
+              </div>
+              <div class="section-advantages-card-content">
+                 <div data-aos="fade-right" class="section-advantages-card-list sn-cd-lt">
+                    <div><i class="fa-solid fa-life-ring fa-i" aria-hidden="true"></i></div>
+                    <div>
+                       <h3 class="section-advantages-card-title">ДОВІЧНА ГАРАНТІЯ</h3>
+                       <p class="section-advantages-card-p">Наша довічна гарантія підтверджує нашу впевненість у якості наданих послуг. Ми прагнемо до бездоганності в роботі.</p>
+                    </div>
+                 </div>
+                 <div data-aos="fade-left" class="section-advantages-card-list sn-cd-lt">
+                    <div><i class="fa-solid fa-car-rear fa-i" aria-hidden="true"></i></div>
+                    <div>
+                       <h3 class="section-advantages-card-title">СУЧАСНЕ ОБЛАДНАННЯ</h3>
+                       <p class="section-advantages-card-p">Ми використовуємо лише сучасне обладнання, що дозволяють нам виконувати роботи з високою точністю та ефективністю.</p>
+                    </div>
+                 </div>
+              </div>
+              <a class="section-advantages-card-btn sc-cd-btn" href="./autoPages/subscription/monthlyPlan.html">БІЛЬШЕ ПЕРЕВАГ</a>
+           </div>
+        </div>
+     </section>
+     <section data-aos="fade-up" id="client-say">
+        <!-- Client testimonials section -->
+        <div class="section-client-container">
+           <div class="section-client-content">
+              <h2 class="section-client-title">Автосервіс</h2>
+              <h3 class="section-client-subtitle">Наш клієнт каже</h3>
+              <p class="section-client-text">
+               Ми завжди цінуємо відгуки наших клієнтів, адже їхня думка — наш найкращий показник якості.Ось що кажуть наші <br>задоволені клієнти про співпрацю з нами.
+              </p>
+           </div>
+        </div>
+        <div class="swiper mySwiper">
+           <!-- Swiper for client testimonials -->
+           <div class="swiper-wrapper">
+              <div class="swiper-slide sr-r">
+                 <div class="swiper-slide-content">
+                    <div class="slider-client-content">
+                       <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                       <div>
+                          <h6 class="swiper-name-box">David Sockar</h6>
+                          <span class="swiper-role-box">Сlient</span>
+                       </div>
+                    </div>
+                    <p class="swiper-text-box">Справжні професіонали! Обслуговування було швидким. Я залишився дуже задоволений результатом!</p>
+                    <div class="star-container">
+                       <h5 class="swiper-date-box">2024-02-04</h5>
+                       <ul class="star-content">
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+                <div class="swiper-slide sr-r">
+                 <div class="swiper-slide-content">
+                    <div class="slider-client-content">
+                       <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                       <div>
+                          <h6 class="swiper-name-box">Liton Markers</h6>
+                          <span class="swiper-role-box">Сlient</span>
+                       </div>
+                    </div>
+                    <p class="swiper-text-box">Чудове обслуговування! Всі проблеми з моїм авто були усунуті швидко та без зайвих витрат. Рекомендую всім!</p>
+                    <div class="star-container">
+                       <h5 class="swiper-date-box">2024-08-05</h5>
+                       <ul class="star-content">
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                          <li><i class="fa-solid fa-star"></i></li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+              <div class="swiper-slide sr-r">
+                <div class="swiper-slide-content">
+                   <div class="slider-client-content">
+                      <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                      <div>
+                         <h6 class="swiper-name-box">Mr Anderson</h6>
+                         <span class="swiper-role-box">Сlient</span>
+                      </div>
+                   </div>
+                   <p class="swiper-text-box">Дякую за якісну діагностику! Завдяки вам я зміг уникнути серйозних проблем з двигуном. Ви – кращі!</p>
+                   <div class="star-container">
+                      <h5 class="swiper-date-box">2024-08-10</h5>
+                      <ul class="star-content">
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+               <div class="swiper-slide sr-r">
+                <div class="swiper-slide-content">
+                   <div class="slider-client-content">
+                      <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                      <div>
+                         <h6 class="swiper-name-box">Stiw Ander</h6>
+                         <span class="swiper-role-box">Сlient</span>
+                      </div>
+                   </div>
+                   <p class="swiper-text-box">Сучасне обладнання та висококваліфіковані майстри – саме те, що потрібно для якісного обслуговування.</p>
+                   <div class="star-container">
+                      <h5 class="swiper-date-box">2024-07-23</h5>
+                      <ul class="star-content">
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+             <div class="swiper-slide sr-r">
+                <div class="swiper-slide-content">
+                   <div class="slider-client-content">
+                      <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                      <div>
+                         <h6 class="swiper-name-box">Roza Karnel</h6>
+                         <span class="swiper-role-box">Сlient</span>
+                      </div>
+                   </div>
+                   <p class="swiper-text-box">Завжди отримую відмінну підтримку. Ваше обслуговування на вищому рівні, продовжуйте.</p>
+                   <div class="star-container">
+                      <h5 class="swiper-date-box">2024-09-20</h5>
+                      <ul class="star-content">
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+               <div class="swiper-slide sr-r">
+                <div class="swiper-slide-content">
+                   <div class="slider-client-content">
+                      <img id="swiper-img-box" src="./img/hackery-user.png" alt="User Male Icon">
+                      <div>
+                         <h6 class="swiper-name-box">Alan Nural</h6>
+                         <span class="swiper-role-box">Сlient</span>
+                      </div>
+                   </div>
+                   <p class="swiper-text-box">Після заміни олії авто почало працювати набагато краще. Ваша команда дійсно знає свою справу!</p>
+                   <div class="star-container">
+                      <h5 class="swiper-date-box">2024-07-15</h5>
+                      <ul class="star-content">
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                         <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+           </div>
+        </div>
+     </section>
+     <section style="margin-top: 10vh;">
+        <!-- Before and after image slider -->
+        <div class="swiper-2">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                 <div>
+                    <img style="width: 100%;" src="./img/before.jpg" alt="Car before">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                 <div>
+                    <img style="width: 100%;" src="./img/after.jpg" alt="Car after">
+                 </div>
+              </div>
+           </div>
+           <div>
+              <button class="swiper-button-prev swiper-button-prev-2">До</button>
+           </div>
+           <div>
+              <button class="swiper-button-next swiper-button-next-2">Після</button>
+           </div>
+        </div>
+     </section>
+     <section data-aos="fade-up">
+        <!-- Team members section -->
+        <div class="section-member-container">
+           <h3 class="section-member-title">Наша команда</h3>
+           <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                 <div class="swiper-slide sr-r">
+                    <img class="member-img" src="./img/members/team-img1.jpg" alt="Team member 1">
+                    <h3>John Delos</h3>
+                    <span class="section-member-role">Менеджер</span>
+                 </div>
+                 <div class="swiper-slide sr-r">
+                    <img class="member-img" src="./img/members/team-img2.jpg" alt="Team member 2">
+                    <h3>Ajura Agoh</h3>
+                    <span class="section-member-role">Інженер</span>
+                 </div>
+                 <div class="swiper-slide sr-r">
+                    <img class="member-img" src="./img/members/team-img3.jpg" alt="Team member 3">
+                    <h3>Sabina Nur</h3>
+                    <span class="section-member-role">Директор</span>
+                 </div>
+                 <div class="swiper-slide sr-r">
+                    <img class="member-img" src="./img/members/team-img4.jpg" alt="Team member 4">
+                    <h3>Alan Nural</h3>
+                    <span class="section-member-role">Менеджер</span>
+                 </div>
+                 <div class="swiper-slide sr-r">
+                    <img class="member-img" src="./img/members/team-img5.jpg" alt="Team member 5">
+                    <h3>Liton Sokar</h3>
+                    <span class="section-member-role">Інженер</span>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <section id="contacts">
+        <!-- Contact form section -->
+        <div class="section-contact-container">
+           <div class="section-contact-content">
+              <div class="">
+                 <img style="width: 80%;" src="./img/Contact.png" alt="Car Mercedes-Benz">
+              </div>
+              <div data-aos="fade-up-left" class="section-contact-container-form">
+                 <h1 class="section-contact-container-title">Поспілкуйтеся з нами</h1>
+                 <h2 class="section-contact-container-subtitle">Напишіть нам</h2>
+                 <form class="js-form" action="#" novalidate>
+
+                    <input class="js-input" name="name" type="text" placeholder="Ваше ім'я*">
+
+                    <input class="js-input js-input-phone" name="phone" type="tel" placeholder="Ваш номер телефону*">
+
+                    <input class="js-input" name="car" type="text" placeholder="Ваше автo*">
+
+                    <input class="js-input" name="comment" class="section-contact-form-comment" type="text" placeholder="Ваша проблема*">
+
+                    <button type="submit" class="section-contact-form-btn" value="Send Request">Надіслати запит</button>
+
+                    <div class="FormSubmit"></div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </section>
+     <section>
+        <!-- Contact info section -->
+        <div>
+           <div class="aside-container-main-info">
+              <div class="aside-content-info">
+                 <i class="fa-solid fa-map-location-dot fa-icon-info"></i>
+                 <div>
+                    <h3 class="aside-container-title">АДРЕСА:</h3>
+                    <p class="aside-container-info">Mulatol Pakar Matha, Dhaka Bus<br> Stand Road, 5400</p>
+                 </div>
+              </div>
+              <div class="aside-content-info">
+                 <i class="fa-solid fa-phone-volume fa-icon-info"></i>
+                 <div>
+                    <h3 class="aside-container-title">ТЕЛЕФОНИ:</h3>
+                    <p class="aside-container-info">
+                       <a style="color:#fff" href="tel:0950660959">+380 95 066 09 59</a>
+                       <a style="color:#fff; margin-left:10px;" href="tel:0950650385">+380 95 065 03 85</a>
+                       <br>
+                       <a style="color:#fff" href="tel:0950564505">+380 95 056 46 05</a>
+                    </p>
+                 </div>
+              </div>
+              <div class="aside-content-info">
+                 <i class="fa-solid fa-calendar-check fa-icon-info"></i>
+                 <div>
+                    <h3 class="aside-container-title">ЧАС РОБОТИ:</h3>
+                    <p class="aside-container-info">понеділок–субота: 08:00–18:00;<br> П'ятниця - вихідний</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <footer>
+        <div class="footer-container">
+           <!-- Skills Section -->
+           <div class="copy">
+              <h3 class="copy-title">Навички</h3>
+              <div class="copy-list">
+                 <span class="copy-link">Продаж автомобілів</span>
+                 <span class="copy-link">Ремонт автомобіля</span>
+              </div>
+              <!-- Community Section -->
+              <div>
+                 <h3 class="copy-title">Спільнота</h3>
+                 <div class="copy-list">
+                    <span class="copy-link">B2B Ukraine (b2b.ukraine)</span>
+                    <span class="copy-link">Automechanika Ukraine</span>
+                    <span class="copy-link">Drive2.ua</span>
+                    <span class="copy-link">Avtoforum.ua</span>
+                 </div>
+              </div>
+           </div>
+           <!-- Partners Section -->
+           <div class="copy">
+              <h3 class="copy-title">Партнери</h3>
+              <div class="copy-list">
+                 <span class="copy-link">Arm Tek</span>
+                 <span class="copy-link">Smotor</span>
+                 <span class="copy-link">Bosch/Kyb</span>
+                 <span class="copy-link">Smile</span>
+                 <span class="copy-link">Sachs</span>
+                 <span class="copy-link">AvtoExpert</span>
+              </div>
+           </div>
+           <!-- Services Section -->
+           <div class="copy">
+              <h3 class="copy-title">Наш сервісний ремонт</h3>
+              <div class="copy-list">
+                 <span class="copy-link">Ремені та шланги</span>
+                 <span class="copy-link">Діагностика двигуна</span>
+                 <span class="copy-link">Масла та фільтри</span>
+                 <span class="copy-link">Кондиціонер</span>
+                 <span class="copy-link">Ремонт гальм</span>
+              </div>
+           </div>
+           <!-- Contact Information Section -->
+           <div class="copy">
+              <h3 class="copy-title">Зв'яжіться з нами</h3>
+              <div class="copy-list">
+                 <a href="tel:+380950660959"><span class="copy-link">Tel: +380 95 066 09 59</span></a>
+                 <a href="tel:+380950650385"><span class="copy-link">Telegram: +380 95 065 03 85</span></a>
+                 <a href="mailto:autorepaire@gmail.com"><span class="copy-link">autorepaire@gmail.com</span></a>
+                 <a href="https://google.com.ua/maps/place/%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4018377,30.2208891,11z/data=!3m1!4b1!4m12!1m5!3m4!2zNTDCsDQ1JzMzLjciTiAyNcKwMTYnMzguNyJF!8m2!3d50.759347!4d25.277409!3m5!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4503596!4d30.5245025!16zL20vMDJzbjM0?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D"><span class="copy-link">50°45'33.7"N 25°16'38.7"E</span></a>
+                 <span class="copy-link">Виробництво АвтоПрофі</span>
+              </div>
+           </div>
+        </div>
+        <!-- Copyright Section -->
+        <aside style="display: flex; align-items: center; justify-content: space-around;">
+           <div class="aside-copyright">
+              <div>
+                 <p class="aside-copyright-text">
+                  Copyright © автосервіс, всі права захищені
+                 </p>
+              </div>
+              <div>
+                 <ul class="aside-copyright-list">
+                    <li>
+                       <a href="#">Правила та умови</a>
+                    </li>
+                    <li>
+                       <a href="#">Політика конфіденційності</a>
+                    </li>
+                    <li>
+                       <a href="./autoContacts/contact.html">Зв'яжіться з нами</a>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </aside>
+     </footer>
+     </div>
+<script>AOS.init();</script>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/validateForm/formContact.js"></script>
+</body>
+</html>
