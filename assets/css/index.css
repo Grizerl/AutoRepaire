@@ -432,19 +432,20 @@ a,.nav-link
 }
 .card-support
 {
+    position: relative;
     width: 16%;
+    height: 25vh;
     box-shadow: 0px 0px 30px 0px rgb(0, 0, 0, 0.1);
-    padding: 40px 25px 40px;
+    padding: 30px 25px 30px;
     margin: 20px 0px 0px 12px;
     border-radius: 8px;
     text-align: center;
     background: var(--clr-white);
-    transition: 1s;
-    position: relative;
-   
+    transition: 1s;   
 }
 .card-support p
 {
+    box-sizing: border-box;
     word-break: break-word;
 }
 .card-support::after
