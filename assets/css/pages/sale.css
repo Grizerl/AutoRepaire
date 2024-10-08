@@ -247,6 +247,28 @@ a,.nav-link
     flex-direction: column;
     text-align: center;
 }
+.search-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.search-container > input {
+    width: 60%; 
+    padding: 10px;
+    margin-bottom: 45px;
+    font-size: 1rem; 
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+    outline: none; 
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.search-container > input:focus {
+    border-color: var(--clr-red-title); 
+}
+
 .shop_container {
     display: flex;
     flex-wrap: wrap;
@@ -276,7 +298,7 @@ a,.nav-link
 {
     font-size: 40px;
     font-weight: 700;
-    margin: 8px 0px 55px 0px;
+    margin: 8px 0px 35px 0px;
 }
 .sn-discount
 {
