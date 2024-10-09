@@ -199,6 +199,7 @@ a,.nav-link
     background: url('../../../autoContacts/img/banner-car.png');
     background-size: cover;
     background-color:#000000;
+    box-sizing: border-box;
     height: 100vh;
 }
 .title-question-page,.subtitle-question-page
@@ -219,7 +220,6 @@ a,.nav-link
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    width: 30%;
 }
 .inputValidate.error
 {
@@ -375,4 +375,9 @@ a,.nav-link
 .aside-copyright-list a:hover
 {
     color: var(--clr-red-btn);
+}
+@media (max-width: 1550px) {
+    .btn-form {
+        margin-left: 18vh;
+    }
 }
