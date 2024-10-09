@@ -214,6 +214,7 @@ a,.nav-link
     background: url(../imgMain/hackery-slider1.jpg);
     background-repeat: no-repeat;
 }
+
 .back-img-slide-2
 {
     position: relative;
@@ -409,6 +410,7 @@ a,.nav-link
 }
 .section-support-container
 {
+    height: 91vh;
     margin: 15vh 0vh 0vh 0vh;
 }
 .section-support-content-title
@@ -491,7 +493,6 @@ a,.nav-link
     justify-content: center;
     flex-direction: column;
     background: var(--clr-gray-member);
-    height: 75vh;
 }
 .section-advantages-card-content
 {
@@ -504,7 +505,7 @@ a,.nav-link
 .section-advantages-title
 {
     font-size: 50px;
-    margin: 0px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     color: var(--clr-black);
 }
 .section-advantages-card-list
@@ -542,6 +543,7 @@ a,.nav-link
     cursor: pointer;
     transition: .5s;
     overflow: hidden;
+    margin-bottom: 5vh;
 }
 
 .sc-cd-btn:before {
